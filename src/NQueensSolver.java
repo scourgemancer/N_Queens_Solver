@@ -11,8 +11,8 @@ public class NQueensSolver{
     public static void main(String[] args){
         if(args.length == 0){//solve all eight n problems
             for(int n=1; n < 9; n++){
-                if(n==1) System.out.println("Solving the 1 Queen problem:\n");
-                else System.out.println("Solving the "+n+" Queens problem:\n");
+                if(n==1) System.out.println("Solving the 1 Queen problem:");
+                else System.out.println("Solving the "+n+" Queens problem:");
 
                 double start = System.currentTimeMillis();
 
@@ -33,8 +33,8 @@ public class NQueensSolver{
             if(args[0].matches("[1-8]")){//make sure the user provided a valid n to use
                 int n = Integer.parseInt(args[0]);
 
-                if(n==1) System.out.println("Solving the 1 Queen problem:\n");
-                else System.out.println("Solving the "+n+" Queens problem:\n");
+                if(n==1) System.out.println("Solving the 1 Queen problem:");
+                else System.out.println("Solving the "+n+" Queens problem:");
 
                 double start = System.currentTimeMillis();
 
